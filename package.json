@@ -1,0 +1,30 @@
+{
+  "name": "html-css-sass-js-templete",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizip/html-css-sass-js-templete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizip/html-css-sass-js-templete/issues"
+  },
+  "homepage": "https://github.com/bizip/html-css-sass-js-templete#readme",
+  "devDependencies": {
+    "hint": "^6.1.11",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
