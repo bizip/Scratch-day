@@ -155,3 +155,35 @@ hr.line {
   padding: 2rem 3rem;
   margin: 3rem 0;
 }
+/* mobile menu */
+.mobile-menu{
+  display: none;
+  z-index: 100;
+  background-color: #272A31;
+  height: 100vh;
+  width: 100vw;
+position: relative;
+animation: all 2s step-end;
+}
+.mobile-menu__button{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 3rem 3rem;
+}
+.mobile-menu__links{
+  list-style: none;
+  margin-left: 4%;
+}
+.mobile-minu__link{
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 0 2rem;
+}
+.disapear{
+  display: block !important;
+}
+.disapear1{
+  display: none !important;
+}
