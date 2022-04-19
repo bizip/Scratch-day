@@ -1,40 +1,14 @@
-@keyframes moveIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem); }
-  80% {
-    transform: translateX(2rem); }
-  100% {
-    opacity: 1;
-    transform: translateX(0); } }
-
-@keyframes moveRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem); }
-  80% {
-    transform: translateX(-2rem); }
-  100% {
-    opacity: 1;
-    transform: translateX(0); } }
-
-@keyframes moveInButton {
-  0% {
-    opacity: 0;
-    transform: translateY(3rem); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
-
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 body {
   font-family: "Lato", sans-serif;
@@ -42,50 +16,130 @@ body {
   box-sizing: border-box;
   line-height: 1.7;
   color: #777;
-  padding: 3rem; }
-
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  border-radius: 10rem;
-  transition: all 2s;
-  position: relative;
-  font-size: 1.6rem; }
-
-.btn-white {
-  color: #777;
-  background-color: white; }
-
-.btn:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
-
-.btn:active {
-  transform: translateY(-0.2rem);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
   width: 100%;
-  border-radius: 10rem;
+}
+nav img{
+padding-top: 2rem;
+padding-left: 4%;
+height: 10rem;
+}
+.block{
+  display: block;
+}
+header {
+display: flex;
+justify-content: center;
+height: 100vh;
+background-image:url(./img/landing.png);
+background-position: center;
+background-size: cover;
+margin-bottom: 2rem;
+}
+.header{
+  top: 20%;
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 0.4s; }
+  width: 100vw;
+  display:flex;
+  flex-direction: column;
+  padding: 0 4%;
+  height: 100%;
+  
+}
+.header__welcome{
+  font-size: 2.5rem;
+  font-weight: 400;
+  background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.header__title{
+  font-size: 4rem;
+  font-weight: 900;
+  background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.description{
+  font-size: 1.5rem;
+  border: 4px solid #fff;
+  padding: 0 1rem;
+}
+.header__time-adress{
+  margin-top: 2rem;
+}
+.header__time{
+  font-weight:900;
+  font-size: 2.5rem;
+}
+.header__address{
+  font-size: 1.5rem;
+}
 
-.btn-white::after {
-  background-color: #fff; }
+.main-program{
+  height:auto;
+  background-image: url(./img/mp-bg.png);
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
 
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.5);
-  opacity: 0; }
+.Main-program__cards{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
 
-.btn-animated {
-  animation: moveInButton 0.5s ease-out 0.75s;
-  animation-fill-mode: backwards; }
+
+.main-program__header{
+  color: #fff;
+  margin:4rem 0;
+  display:flex;
+  width: 50%;
+ align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+padding: 0 2rem;
+}
+hr.line{
+  width: 8rem;
+  border: 1px solid #EC5242;
+}
+.Main-program__cards{
+  background-color: rgba(119, 119, 119, 0.4);
+  padding: 1%;
+  margin: 1% 3%;
+}
+.card__right>p{
+color: white;
+font-size: 1.5rem;
+}
+.card__left{
+  display: flex;
+  align-items: center;
+}
+.card__left img{
+  width: 5rem;
+
+}
+.card__left>p{
+  font-weight: 700;
+  font-size: 2rem;
+  color:#EC5242;
+  padding: 0 2rem;
+}
+.main-program__join{
+  background-color: #EC5242;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 3rem;
+  margin: 3rem 0;
+}
