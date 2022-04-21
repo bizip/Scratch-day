@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML CSS SASS JavaSript template project
+# Scratch day grobal summit 2022 project
 
-> This is a portifolio project that was implemented from the figma design
+> A joyful celebration believing in the value of openness and sharing, creating, a positive change in the process of integrating the technology into the daily life of students from over 80 countries is taking place in May, in Rwanda
 
 # Link to live project
 
-## [Pascal portifolio](https://bizip.github.io/p-portifolio/)
+## [Pascal portifolio](https://bizip.github.io/Scratch-day/)
 
 ## Built With
 
@@ -26,7 +26,7 @@ You need to have a basic knowledge about HTML and CSS
 
 ### Setup
 
-#### clone this project (using git clone https://github.com/bizip/hello-world.git) to your local computer and use telminal to navigate into the parent directory of this project.
+#### clone this project (using git clone https://github.com/bizip/Scratch-day.git) to your local computer and use telminal to navigate into the parent directory of this project.
 
 ### Install
 
