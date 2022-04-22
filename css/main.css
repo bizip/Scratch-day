@@ -431,7 +431,8 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   font-size: 20px;
-  margin: 20px;
+  padding: 20px;
+  background-color: #d3d3d3;
 }
 
 .footer__copright {
