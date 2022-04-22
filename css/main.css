@@ -1,55 +1,48 @@
-body {
-  background-color: white;
-}
-
-body {
-  background-color: white;
-}
-
-body {
-  background-color: white;
-}
-
-body {
-  background-color: white;
-}
 
 @keyframes moveIn {
   0% {
     opacity: 0;
     transform: translateX(-10rem);
   }
+
   80% {
     transform: translateX(2rem);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
+
 @keyframes moveRight {
   0% {
     opacity: 0;
     transform: translateX(10rem);
   }
+
   80% {
     transform: translateX(-2rem);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
+
 @keyframes moveInButton {
   0% {
     opacity: 0;
     transform: translateY(3rem);
   }
+
   100% {
     opacity: 1;
     transform: translate(0);
   }
 }
+
 *,
 *::after,
 *::before {
@@ -81,7 +74,7 @@ nav {
 nav img {
   padding-top: 2rem;
   padding-left: 4%;
-  height: 10rem;
+  height: 6rem;
 }
 
 .block {
@@ -99,12 +92,11 @@ header {
 }
 
 .header {
-  top: 20%;
-  position: absolute;
+  padding: 0 4%;
+  padding-top: 5rem !important;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  padding: 0 4%;
   height: 100%;
 }
 
@@ -474,7 +466,7 @@ div.footer__logo > img {
   font-size: 2rem;
 }
 
-div.speaker-card {
+article.speaker-card {
   margin: 2rem 0;
   display: flex;
 }
@@ -542,7 +534,6 @@ div.images img {
 }
 
 .click {
-  background-color: rgba(255, 255, 255, 0.626);
   z-index: 500;
 }
 
@@ -551,40 +542,47 @@ div.images img {
     opacity: 0;
     transform: translateX(10rem);
   }
+
   80% {
     transform: translateX(-2rem);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
+
 @keyframes moveIn {
   0% {
     opacity: 0;
     transform: translateX(-10rem);
   }
+
   80% {
     transform: translateX(2rem);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
+
 @media (min-width: 768px) and (max-width: 941px) {
   .summit,
-.lost {
+  .lost {
     display: none;
   }
 }
+
 @media screen and (min-width: 768px) {
   html {
     font-size: 100%;
   }
 
   img.mob-click,
-nav {
+  nav {
     display: none;
   }
 
@@ -670,7 +668,7 @@ nav {
   }
 
   .main-nav ul li a:hover,
-.main-nav ul li:hover {
+  .main-nav ul li:hover {
     transform: skew(-200deg);
     color: #ec5242;
   }
@@ -681,8 +679,8 @@ nav {
   }
 
   .header {
-    top: 30%;
     padding: 0 15%;
+    padding-top: 1rem !important;
   }
 
   .block {
@@ -767,17 +765,10 @@ nav {
     padding: 2rem 10%;
   }
 }
+
 .main-logo {
   height: 3rem;
   display: flex;
-}
-
-body {
-  background-color: white;
-}
-
-body {
-  background-color: white;
 }
 
 .btn:link,
@@ -833,5 +824,3 @@ body {
   animation: moveInButton 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
-
-/*# sourceMappingURL=main.css.map */

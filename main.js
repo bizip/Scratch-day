@@ -11,44 +11,44 @@ window.onload = () => {
     {
       name: 'Bizimungu Pascal',
       title: 'Scratch programming trainer and web developer',
-      image: './img/pascal.jpeg',
+      image: 'img/pascal.jpeg',
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
     {
       name: 'Bizimungu Pascal',
       title: 'Scratch programming trainer and web developer',
-      image: './img/speaker6.jpg',
+      image: 'img/speaker6.jpg',
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
     {
       name: 'Bizimungu Pascal',
       title: 'Scratch programming trainer and web developer',
-      image: './img/speaker3.jpg',
+      image: 'img/speaker3.jpg',
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
     {
       name: 'Bizimungu Pascal',
       title: 'Scratch programming trainer and web developer',
-      image: './img/speaker2.jpg',
+      image: 'img/speaker2.jpg',
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
     {
       name: 'Bizimungu Pascal',
       title: 'Scratch programming trainer and web developer',
-      image: './img/speacher1.jpg',
+      image: 'img/speacher1.jpg',
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
     {
       name: 'Bizimungu Pascal',
       title: 'Scratch programming trainer and web developer',
-      image: './img/pascal.jpeg',
+      image: 'img/pascal.jpeg',
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
   ];
 
   const getSpeakers = document.getElementById('speaker-container');
   getSpeakers.innerHTML = speakersList.map((el) => `
-  <div class="speaker-card">
+  <article class="speaker-card">
   <div class="images">
       <img src="${el.image}" alt="specker">
   </div>
@@ -62,5 +62,5 @@ window.onload = () => {
           <p> ${el.shortDetails}</p>
       </div>
   </div>
-</div>`).join('');
+</article>`).join('');
 };

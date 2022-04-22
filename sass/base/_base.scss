@@ -29,7 +29,7 @@ nav {
 nav img {
   padding-top: 2rem;
   padding-left: 4%;
-  height: 10rem;
+  height: 6rem;
 }
 
 .block {
@@ -508,10 +508,10 @@ div.images img {
   display: none;
 }
 
-.click {
-  background-color: rgba(255, 255, 255, 0.626);
-  z-index: 500;
-}
+// .click {
+//   background-color: rgba(255, 255, 255, 0.626);
+//   z-index: 500;
+// }
 
 @keyframes moveRight {
   0% {
