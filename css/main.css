@@ -221,7 +221,7 @@ hr.line {
   background-color: #272a31;
   height: 100vh;
   width: 100vw;
-  position: relative;
+  position: fixed;
   animation: all 2s step-end;
 }
 
@@ -432,12 +432,11 @@ footer {
   flex-wrap: wrap;
   font-size: 20px;
   padding: 20px;
-  background-color: #d3d3d3;
+  background-color: #d3d3d342;
 }
 
 .footer__copright {
   padding: 0 20px;
-  text-align: center;
   align-items: center;
   display: flex;
 }
@@ -534,6 +533,10 @@ div.images img {
   display: none;
 }
 
+.footer{
+  background-color: #fff;
+}
+
 .click {
   z-index: 500;
 }
@@ -581,12 +584,17 @@ div.images img {
   html {
     font-size: 100%;
   }
-
+.footer__copright{
+color: #fff;
+}
   img.mob-click,
   nav {
     display: none;
   }
 
+  .not-desktop{
+    display: none;
+  }
   .social-nav {
     display: flex;
     flex-direction: row-reverse;
@@ -734,6 +742,10 @@ div.images img {
     margin: 3rem 0;
   }
 
+  #footer__txt{
+    color: #777;
+  }
+
   .main-program__header {
     margin: 2rem 0;
   }
@@ -754,6 +766,11 @@ div.images img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0 12%;
+  }
+
+  .footer{
+    background-color: #272a31;
+    margin-top: 5rem;
   }
 
   .about__sample1 {
@@ -825,3 +842,5 @@ div.images img {
   animation: moveInButton 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
+
+
