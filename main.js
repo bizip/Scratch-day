@@ -39,9 +39,9 @@ window.onload = () => {
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
     {
-      name: 'Nikita Wilkinson',
-      title: 'Central Office Operator',
-      image: 'img/pascal.jpeg',
+      name: 'Robert Rodrigez',
+      title: 'Central Office Operator at Microsoft',
+      image: 'img/speaker5.jpg',
       shortDetails: 'Bacon ipsum dolor amet prosciutto ball tip swine, shank andouille ham hock short loin',
     },
   ];
