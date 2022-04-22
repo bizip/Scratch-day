@@ -533,7 +533,7 @@ div.images img {
   display: none;
 }
 
-.footer{
+.footer {
   background-color: #fff;
 }
 
@@ -584,17 +584,20 @@ div.images img {
   html {
     font-size: 100%;
   }
-.footer__copright{
-color: #fff;
-}
+
+  .footer__copright {
+    color: #fff;
+  }
+
   img.mob-click,
   nav {
     display: none;
   }
 
-  .not-desktop{
+  .not-desktop {
     display: none;
   }
+
   .social-nav {
     display: flex;
     flex-direction: row-reverse;
@@ -742,7 +745,7 @@ color: #fff;
     margin: 3rem 0;
   }
 
-  #footer__txt{
+  #footer__txt {
     color: #777;
   }
 
@@ -768,7 +771,7 @@ color: #fff;
     padding: 0 12%;
   }
 
-  .footer{
+  .footer {
     background-color: #272a31;
     margin-top: 5rem;
   }
@@ -842,5 +845,3 @@ color: #fff;
   animation: moveInButton 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
-
-
