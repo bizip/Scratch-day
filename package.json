@@ -1,23 +1,27 @@
 {
-  "name": "html-css-sass-js-templete",
+  "name": "scratch-day",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "compile:sass": "node-sass ./sass/main.scss ./main.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bizip/html-css-sass-js-templete.git"
+    "url": "git+https://github.com/bizip/Scratch-day.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bizip/html-css-sass-js-templete/issues"
+    "url": "https://github.com/bizip/Scratch-day/issues"
   },
-  "homepage": "https://github.com/bizip/html-css-sass-js-templete#readme",
+  "homepage": "https://github.com/bizip/Scratch-day#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
     "hint": "^6.1.11",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
@@ -25,6 +29,6 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "node-sass": "^7.0.1"
+    "sass": "^1.50.1"
   }
 }
